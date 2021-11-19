@@ -5,12 +5,13 @@ Description: Boop
 Version: 1.0
 */
 
-#body {
+html, #body {
 	background-image: linear-gradient(hsl(288, 93%, 24%), hsl(263, 78%, 36%), hsl(239, 67%, 38%));
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 	color: white;
+	box-sizing: border-box;
 }
 
 footer {
