@@ -15,6 +15,20 @@ html, #body {
 	height: 100vh;
 }
 
+header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(hsl(280, 84%, 11%), hsl(288, 96%, 29%));
+    border-bottom: 1px solid hsl(280, 84%, 21%);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 99;
+    height: 4rem;
+  }
+
 footer {
 	text-align: center;
 }
