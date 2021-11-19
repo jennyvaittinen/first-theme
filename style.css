@@ -12,6 +12,7 @@ html, #body {
     background-repeat: no-repeat;
 	color: white;
 	box-sizing: border-box;
+	height: 100vh;
 }
 
 footer {
