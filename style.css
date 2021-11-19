@@ -12,7 +12,9 @@ html, #body {
     background-repeat: no-repeat;
 	color: white;
 	box-sizing: border-box;
-	height: 100vh;
+	height: auto;
+    width: auto;
+    margin-top: 3.5vw;
 }
 
 header {
