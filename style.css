@@ -12,7 +12,7 @@ html, #body {
     background-repeat: no-repeat;
 	color: white;
 	box-sizing: border-box;
-	height: auto;
+	height: 100vh;
     width: auto;
     margin-top: 3.5vw;
 }
