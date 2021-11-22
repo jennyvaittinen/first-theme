@@ -44,6 +44,16 @@ function my_acf_init_block_types() {
             'keywords'          => array( 'projekti', 'lista' ),
         ));
 
+        acf_register_block_type(array(
+            'name'              => 'kuva-teksti-linkki',
+            'title'             => __('Kuva-teksti-linkki'),
+            'description'       => __('Lohko, missä kuva, teksti ja linkki'),
+            'render_template'   => 'blocks/kuva-teksti-linkki.php',
+            'category'          => 'formatting',
+            'icon'              => 'admin-comments',
+            'keywords'          => array( 'kuva', 'teksti', 'linkki'),
+        ));
+
     }
 }
 
