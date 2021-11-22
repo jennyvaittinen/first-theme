@@ -34,8 +34,8 @@
 <section class="personnel-block" id="henkilosto">
     <h2 class="pb-5"><?php the_field("otsikko") ?></h2>
     <div class="row">
-        <?php if (have_rows("henkilo")) {
-            while (have_rows("henkilo")) {
+        <?php if (have_rows("projekti")) {
+            while (have_rows("projekti")) {
                 the_row();
                 $image = get_sub_field("kuva"); 
                 $link = get_sub_field("linkki"); ?>
