@@ -29,7 +29,6 @@
     .block-tall h2 {
         margin-bottom: 30px;
         font-size: 34px;
-        color: #3E593E;
     }
     .block-tall img {
         width: 100%;
