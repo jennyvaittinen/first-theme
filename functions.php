@@ -34,6 +34,16 @@ function my_acf_init_block_types() {
             'keywords'          => array( 'hero', 'full-width' ),
         ));
 
+        acf_register_block_type(array(
+            'name'              => 'projektit',
+            'title'             => __('Projektit'),
+            'description'       => __('Lohko projekteille'),
+            'render_template'   => 'blocks/projektit.php',
+            'category'          => 'formatting',
+            'icon'              => 'admin-comments',
+            'keywords'          => array( 'projekti', 'lista' ),
+        ));
+
     }
 }
 
