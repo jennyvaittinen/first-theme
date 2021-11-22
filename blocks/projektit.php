@@ -39,7 +39,7 @@
                 the_row();
                 $image = get_sub_field("kuva"); 
                 $link = get_sub_field("linkki"); ?>
-                <div class="col-lg-3 col-sm-6 person">
+                <div class="col-sm-4 person">
                    <a href="<?php echo $link; ?>"> <img src="<?php echo $image['url']; ?>">
                     <ul class="info">
                         <li><strong><?php the_sub_field("nimi"); ?> </strong></li>
