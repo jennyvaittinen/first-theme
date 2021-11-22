@@ -12,7 +12,7 @@
     }
     .person img {
         width: 100%;
-        height: auto;
+        height: 135px;
         display: block;
     }
     .person ul {
